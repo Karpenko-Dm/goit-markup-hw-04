@@ -3,21 +3,26 @@
   --title-text-color: #757575;
   --accent-color: #2196f3;
 }
+
 img {
   display: block;
 }
 
 body {
   font-family: Roboto, sans-serif;
-  /* <!============ Header =============*/
 }
-.header-container {
-  display: flex;
-  align-items: center;
+.container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+}
+/* <!============ Header =============*/
+
+.header .container {
+  display: flex;
+  align-items: center;
+  border: none;
 }
 .header {
   display: flex;
@@ -129,7 +134,6 @@ p {
   text-align: center;
 
   margin: 0px;
-  padding-top: 94px;
 }
 .team-list p {
   color: var(--title-text-color);
@@ -158,6 +162,7 @@ p {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .team-container {
   width: 1200px;
@@ -209,11 +214,7 @@ footer {
 .address-contact {
   padding-top: 9px;
 }
-.footer-container {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
+
 /* =================hero============ */
 .hero a {
   font-weight: bold;
@@ -271,13 +272,13 @@ footer {
   padding-bottom: 94px;
   margin: 0px;
 }
-.work-container {
+/*.work-container {
   min-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 .work-list {
   display: flex;
   justify-content: center;
@@ -324,11 +325,11 @@ ul .features {
 .features-section {
   padding-top: 94px;
 }
-.features-container {
+/*.features-container {
   min-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-}
+}*/
 
 .features ul:not(:first-child) {
   margin-right: 30px;
