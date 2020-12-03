@@ -238,7 +238,16 @@ footer {
   max-width: 1600px;
   text-align: center;
   min-height: 600px;
-  background-color: #2f303a;
+  background: #c4c4c4;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("/img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+
+  /*background-color: #2f303a;*/
   margin-top: 0px;
   margin: auto;
 }
