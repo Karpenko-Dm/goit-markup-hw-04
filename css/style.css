@@ -127,11 +127,9 @@ p {
 .link-icon {
   width: 16px;
   height: 12px;
-  fill: #757575;
+  fill: currentColor;
 }
-.link-icon :hover {
-  fill: #2196f3;
-}
+
 /* =======================ouer team===============  */
 
 .team-title {
@@ -392,10 +390,11 @@ ul .features {
 }
 
 .features-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 270px;
   height: 120px;
-  background-size: auto;
-  padding: 25px 100px;
 }
 
 /*=======================Портфолио====================*/
