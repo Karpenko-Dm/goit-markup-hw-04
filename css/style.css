@@ -124,6 +124,14 @@ h3,
 p {
   color: var(--primary-text-color);
 }
+.link-icon {
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+}
+.link-icon :hover {
+  fill: #2196f3;
+}
 /* =======================ouer team===============  */
 
 .team-title {
@@ -181,6 +189,26 @@ p {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+.socila-link-icon {
+  display: inline-block;
+  text-decoration: none;
+  padding: 11px;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.socila-link-icon:hover {
+  background-color: var(--accent-color);
+}
+.social-icon {
+  fill: #afb1b8;
+  width: 20px;
+  height: 20px;
+}
+.social-icon:hover {
+  fill: #ffffff;
 }
 
 /* =======================footer=====================  */
@@ -345,6 +373,29 @@ ul .features {
 }
 .features-item {
   width: 270px;
+}
+.thumb {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.thumb:nth-child(1) {
+  background-color: #f5f4fa;
+}
+.thumb:nth-child(2) {
+  background-color: #f5f4fa;
+}
+.thumb:nth-child(3) {
+  background-color: #f5f4fa;
+}
+.thumb:nth-child(4) {
+  background-color: #f5f4fa;
+}
+
+.features-icon {
+  width: 270px;
+  height: 120px;
+  background-size: auto;
+  padding: 25px 100px;
 }
 
 /*=======================Портфолио====================*/
